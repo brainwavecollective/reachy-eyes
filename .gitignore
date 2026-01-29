@@ -1,0 +1,35 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# uv
+.venv/
+.uv/
+
+# Python tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / local config
+.env
+.python-version
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Dependency locks
+uv.lock

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reachy-eyes"
+version = "0.1.0"
+description = "Expressive eye component for Reachy Mini robots"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pyserial>=3.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/brainwavecollective/reachy-eyes"
+Repository = "https://github.com/brainwavecollective/reachy-eyes"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["reachy_eyes*"]
+exclude = ["demos*"]
