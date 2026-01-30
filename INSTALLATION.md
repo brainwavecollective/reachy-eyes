@@ -16,16 +16,17 @@ This covers the installation of the first batch of physical hardware. If you're 
 While unboxing take care because **the small, doughnut shaped Eye Inserts are loosely stored inside the Eye Towers.** They can be easily removed by turning them upside down and gently tapping on the table.  
 
 **Kit contents:**
+<div style="text-align: center;">
+  <a href="media/KitContents.JPG" target="_blank">
+    <img src="media/KitContents.JPG" width="40%" alt="The parts that are included in the kit, for connecting the LED eyes to the robot">
+  </a>
+</div>  
+  
  - x1 pre-programmed Reachy Mini Eyes module 
  - x2 Eye Towers
  - x2 Eye Inserts (for alternative eye style) 
  - x1 USB cable 
 
-<div style="text-align: center;">
-  <a href="media/KitContents.JPG" target="_blank">
-    <img src="media/KitContents.JPG" width="40%" alt="The parts that are included in the kit, for connecting the LED eyes to the robot">
-  </a>
-</div>
 
 You will also find a red shipping support. This is not part of the kit and is only used to secure the module in place during shipping.
 
