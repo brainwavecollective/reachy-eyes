@@ -48,8 +48,8 @@ WEAR EYE PROTECTION. You are likely to damage your old lenses in this process, a
 The purpose of this step is to use your pliers to break the glue seal between the lens and the housing. Grip the lens threads with one tool, and the retaining ring with another. Apply steady rotational force in the counterclockwise direction until the seal breaks. You'll see the glue separate at the seal and the parts will turn apart. You will need to grasp only tightly enough to keep the housing from spinning but not so tight that you mangle the housing. Your pliers will leave imprints on the retaining ring and threads.
 
 <div style="text-align: center;">
-  <a href="media/LensDeconstruction.JPG" target="_blank">
-    <img src="media/LensDeconstruction.JPG" width="40%" alt="Disassembling lenses">
+  <a href="media/LensDeconstruction.jpg" target="_blank">
+    <img src="media/LensDeconstruction.jpg" width="40%" alt="Disassembling lenses">
   </a>
 </div>
 
