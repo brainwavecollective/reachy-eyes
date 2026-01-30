@@ -6,7 +6,7 @@ import threading
 from typing import Optional
 
 from .protocol import Color, Config, Effect, Eye
-from .defaults import CFG_DEFAULTS, HOST_DEFAULTS
+from .defaults import CFG_PARAMS, RUNTIME_STATE, HOST_DEFAULTS
 
 _EYE_ALIASES = {
     "L": Eye.LEFT,
@@ -35,17 +35,21 @@ class ReachyEyes:
     # ===== Initialization =====
 
     def _initialize(self):
-        for key, value in CFG_DEFAULTS.items():
-            self._device.send_command(f"CFG {key} {value}")
-
+        from .defaults import CFG_PARAMS, RUNTIME_STATE
+        
+        # Configure firmware parameters
+        for key, value in CFG_PARAMS.items():
+            self._device.send_command(f"CFG {key} {value}")        
+        time.sleep(0.3)
+        
+        # Verify responsiveness
         if not self._device.wait_ready(timeout=2.0):
             raise RuntimeError("Firmware did not respond after configuration")
-
-        self._device.send_command(f"INTENSITY {CFG_DEFAULTS['DEFAULT_INTENSITY']}")
-        self._device.send_command(f"ENERGY {CFG_DEFAULTS['DEFAULT_ENERGY']}")
-        self._device.send_command("SHIMMER 0")
-        self._device.send_command("WHITE 0")
-
+        
+        # Set initial state
+        for key, value in RUNTIME_STATE.items():
+            self._device.send_command(f"{key} {value}")
+        
     # ===== Core Color Control =====
 
     def set_color(

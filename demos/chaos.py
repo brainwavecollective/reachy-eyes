@@ -14,7 +14,6 @@ def demo(eyes, duration=None):
     print("Chaotic mix: per-eye colors, winks, pulses, breathing\n")
 
     eyes.set_energy(0.8)
-    eyes.set_intensity(0.6)
 
     next_left_color = 0
     next_right_color = 0
