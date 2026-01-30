@@ -70,11 +70,9 @@ Once the seal is broken, the parts can be unscrewed by hand. Some of my lenses h
 
  1) Set the Eye Inserts into the Eye Towers (how they arrived when shipped) 
  2) Place parts labeled 1 and 2 into the center of the Eye Inserts. The first once be installed facing either direction. I slightly prefer the second part to have the flat face outward.
- 3) Place part 3 (the large lens) on top of the stack. Note that there is nothing to hold it in place, so you'll need to get the lenses underneath the towers.
-
-I recommend one of the following methods:
- - Gloves method: Handle with clean latex gloves to hold the parts together and flip into place without fingerprints  
- - Lens cloth method: Place cloth over lens, flip tower, gently slide cloth out (added bonus of an extra cleaning swipe when it matters most)  
+ 3) Place part 3 (the large lens) on top of the stack. Note that there is nothing to hold it in place, so you'll need to get the lenses underneath the towers. I recommend one of the following methods:
+ - **Gloves method:** Handle with clean latex gloves to hold the parts together and flip into place without fingerprints  
+ - **Lens cloth method:** Place cloth over lens, flip tower, gently slide cloth out (added bonus of an extra cleaning swipe when it matters most)  
  
-These are the only modifications necessary. Proceed with [Step 4 of the standard installation](INSTALLATION.md#step-4-install-eye-towers).
+These are the only unique changes between the two optoins. Go back to [Step 4 of the standard installation](INSTALLATION.md#step-4-install-eye-towers) to finish installing your eyes.
 
