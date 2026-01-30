@@ -49,7 +49,7 @@ The purpose of this step is to use your pliers to break the glue seal between th
 
 Once the seal is broken, the parts can be unscrewed by hand. Some of my lenses did not have the seal at all.
 
-We will be re-using a few of the parts. Yours may be slightly different than the ones I show but that is OK (Coming soon, highlighting of the specific parts you will re-use... they are the only ones that fit).
+We will be re-using a few of the parts. Yours may be slightly different than the ones I show here but that is OK. Here you can see the parts that you will re-use. They are numbered in the order that they will be installed.
 
 <div style="text-align: center;">
   <a href="media/LensComponents.JPG" target="_blank">
@@ -66,10 +66,10 @@ We will be re-using a few of the parts. Yours may be slightly different than the
 
  1) Set the Eye Inserts into the Eye Towers (how they arrived when shipped) 
  2) Place parts labeled 1 and 2 into the center of the Eye Inserts. The first once be installed facing either direction. I slightly prefere the second part to have the flat face outward.
- 3) Place part 3 (the large lens) on top of the stack. Note that there is nothing to hold it in place. 
- 
-You'll need to get the lenses underneath the towers, but they are not held in place. I recommend either:
- - Gloves method: Wear clean latex gloves to flip and handle without fingerprints  
+ 3) Place part 3 (the large lens) on top of the stack. Note that there is nothing to hold it in place, so you'll need to get the lenses underneath the towers.
+
+I recommend one of the following methods:
+ - Gloves method: Handle with clean latex gloves to hold the parts together and flip into place without fingerprints  
  - Lens cloth method: Place cloth over lens, flip tower, gently slide cloth out (added bonus of an extra cleaning swipe when it matters most)  
  
 These are the only modifications necessary. Proceed with [Step 4 of the standard installation](INSTALLATION.md#step-4-install-eye-towers).
