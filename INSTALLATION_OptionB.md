@@ -15,7 +15,7 @@ This is the default, easy way to go, and it works great! It was designed to redu
 
 This approach has an added benefit of being able to experiment with diffusion inserts which make the eyes look particularly interesting while lit up... but I skipped shipping these on the first round because it is less than ideal. [Beautiful when on, ghostly white eyes when off](media/EyeOptionA_Diffused.JPG). I will publish more info if I can ever find a material that looks good.
 
-This eye style modifies the look of the eye *slightly.* If you are very particular about the look, or you want the smallest visual source of light, you may consider Option B which has tradeoffs that you can explore. For many reasons, including another small bonus coming, Option A is recommended. Unless you are very comfortable with the tradeoffs, I suggest you start here and revisit later if you'd like to change it. The difference at rest very minor. Here is a direct comparison (A on the left, B on the right): 
+This eye style modifies the look of the eye *slightly.* If you are very particular about the look, or you want the smallest visual source of light, you may consider Option B which has tradeoffs that you can explore. For many reasons, including another small bonus coming, Option A is recommended. You may even prefer the new look. Unless you are very comfortable with the tradeoffs, I suggest you start here and revisit later if you'd like to change it. The difference at rest very minor. Here is a direct comparison (A on the left, B on the right): 
 
 <div style="text-align: center;">
   <div style="display: inline-flex; gap: 12px; align-items: flex-start;">
@@ -43,13 +43,17 @@ Everything said, I would not describe this process as terribly difficult if you 
 **Step 3a: Irreversibly Modify Old Lenses**
 This step permanently modifies your original lenses. There is no reliable way to restore them afterward. Do not proceed unless you are confident in all of these steps and comfortable with the outcome of everything described here.
 
-WEAR EYE PROTECTION. You are likely to damage your old lenses in this process, and these lenses were never intended for disassembly. I think it is plausible (although unlikely) that you could break glass if not careful. I'm told you can get your eyes replaced if you really needed to, but I'm sure it's expensive and annoying. 
+WEAR EYE PROTECTION. You are likely to damage your old lenses in this process, and these lenses were never intended for disassembly. I think it is plausible (although unlikely) that you could break glass if not careful. I'm told you can get your human eyes replaced if you really needed to, but I'm sure it's expensive and very annoying. 
 
-The purpose of this step is to use your pliers to break the glue seal between the lens and the housing. Grip the lens threads with one tool, and the retaining ring with another. Apply steady rotational force in the counterclockwise direction until the seal breaks. You'll see the glue come out of the seal and the parts will turn apart. You will need to grasp tightly enough to keep the housing from spinning but not so tight that you mangle the housing.
+The purpose of this step is to use your pliers to break the glue seal between the lens and the housing. Grip the lens threads with one tool, and the retaining ring with another. Apply steady rotational force in the counterclockwise direction until the seal breaks. You'll see the glue separate at the seal and the parts will turn apart. You will need to grasp only tightly enough to keep the housing from spinning but not so tight that you mangle the housing. Your pliers will leave imprints on the retaining ring and threads.
 
-Once the seal is broken, the parts can be unscrewed by hand. Some of my lenses did not have the seal at all.
+<div style="text-align: center;">
+  <a href="media/LensDeconstruction.JPG" target="_blank">
+    <img src="media/LensDeconstruction.JPG" width="40%" alt="Disassembling lenses">
+  </a>
+</div>
 
-We will be re-using a few of the parts. Yours may be slightly different than the ones I show here but that is OK. Here you can see the parts that you will re-use. They are numbered in the order that they will be installed.
+Once the seal is broken, the parts can be unscrewed by hand. Some of my lenses had a very weak seal, others were a bit more challenging. We are doing this to re-use a few of the parts. It is OK if yous are slightly different than the ones I show here. The parts are highlighted and numbered in the order that they will be installed.
 
 <div style="text-align: center;">
   <a href="media/LensComponents.JPG" target="_blank">
@@ -60,7 +64,7 @@ We will be re-using a few of the parts. Yours may be slightly different than the
 **Step 3b: Install Lens Parts**
 <div style="text-align: center;">
   <a href="media/AssembleOptionB.JPG" target="_blank">
-    <img src="media/AssembleOptionB.JPG" width="30%" alt="Installing Option B eyes">
+    <img src="media/AssembleOptionB.JPG" width="40%" alt="Installing Option B eyes">
   </a>
 </div>
 
