@@ -21,6 +21,12 @@ While unboxing take care because **the small, doughnut shaped Eye Inserts are lo
  - x2 Eye Inserts (for alternative eye style) 
  - x1 USB cable 
 
+<div style="text-align: center;">
+  <a href="media/KitContents.JPG" target="_blank">
+    <img src="media/KitContents.JPG" width="40%" alt="The parts that are included in the kit, for connecting the LED eyes to the robot">
+  </a>
+</div>
+
 You will also find a red shipping support. This is not part of the kit and is only used to secure the module in place during shipping.
 
 ## Tools Required
