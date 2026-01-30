@@ -53,7 +53,7 @@ The purpose of this step is to use your pliers to break the glue seal between th
   </a>
 </div>
 
-Once the seal is broken, the parts can be unscrewed by hand. Some of my lenses had a very weak seal, others were a bit more challenging. We are doing this to re-use a few of the parts. It is OK if yous are slightly different than the ones I show here. The parts are highlighted and numbered in the order that they will be installed.
+Once the seal is broken, the parts can be unscrewed by hand. Some of my lenses had a very weak seal, others were a bit more challenging. We are doing this to re-use a few of the parts. It is OK if yours are slightly different than the ones I show here. The parts are highlighted and numbered in the order that they will be installed.
 
 <div style="text-align: center;">
   <a href="media/LensComponents.JPG" target="_blank">
@@ -69,7 +69,7 @@ Once the seal is broken, the parts can be unscrewed by hand. Some of my lenses h
 </div>
 
  1) Set the Eye Inserts into the Eye Towers (how they arrived when shipped) 
- 2) Place parts labeled 1 and 2 into the center of the Eye Inserts. The first once be installed facing either direction. I slightly prefere the second part to have the flat face outward.
+ 2) Place parts labeled 1 and 2 into the center of the Eye Inserts. The first once be installed facing either direction. I slightly prefer the second part to have the flat face outward.
  3) Place part 3 (the large lens) on top of the stack. Note that there is nothing to hold it in place, so you'll need to get the lenses underneath the towers.
 
 I recommend one of the following methods:
