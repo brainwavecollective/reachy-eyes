@@ -13,9 +13,9 @@ Speaking franly, I think most people will be very happy with Option A. However, 
 ### Option A Overview: Standard Eyes (Simpler, Recommended)
 This is the default, easy way to go, and it works great! It was designed to reduce weight, provide a secure method of mounting, and provide more options for creative installations.
 
-This approach has an added benefit of being able to experiment with diffusion inserts which make the eyes look particularly interesting while lit up... but I skipped shipping these on the first round because it is less than ideal. [Beautiful when on, ghostly white eyes when off](media/EyeOptionA_Diffused.JPG). I will publish more info if I can ever find a material that looks good.
+This approach has an added benefit of being able to experiment with diffusion inserts which make the eyes look particularly interesting while lit up... but I skipped shipping these on the first round because while beautiful when lit they are [ghostly white eyes when off](media/EyeOptionA_Diffused.JPG). I will publish more info if I ever find a darkened diffusion filter.
 
-This eye style modifies the look of the eye *slightly.* If you are very particular about the look, or you want the smallest visual source of light, you may consider Option B which has tradeoffs that you can explore. For many reasons, including another small bonus coming, Option A is recommended. You may even prefer the new look. Unless you are very comfortable with the tradeoffs, I suggest you start here and revisit later if you'd like to change it. The difference at rest very minor. Here is a direct comparison (A on the left, B on the right): 
+This eye style modifies the look of the eye *slightly.* If you are very particular about the look, or you want the smallest visual source of light, you may consider Option B which has tradeoffs that you can explore. For many reasons, Option A is recommended. You may even prefer the new look. Unless you are very comfortable with the tradeoffs, I suggest you start here and revisit later if you'd like to change it. The difference at rest very minor. Here is a direct comparison (A on the left, B on the right): 
 
 <div style="text-align: center;">
   <div style="display: inline-flex; gap: 12px; align-items: flex-start;">
