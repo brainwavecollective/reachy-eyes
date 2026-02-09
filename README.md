@@ -27,7 +27,10 @@ python demos/demo_all_the_things.py
 uv run demos/demo_all_the_things.py
 ```
 
-Any of the example files in `demos/` can be run individually. `demo_all_the_things.py` simply cycles through everything available.
+Any of the example files in `demos/` can be run individually. `demo_all_the_things.py` simply cycles through everything available.  
+
+NOTE: For Linux depending on your permissions you might need to enable udev rules: 
+`echo 'SUBSYSTEM=="tty", ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="10fc", MODE="0666"' | sudo tee /etc/udev/rules.d/99-reachy-eyes.rules && sudo udevadm control --reload-rules && sudo udevadm trigger`
 
 ## Repository Structure
 ```
