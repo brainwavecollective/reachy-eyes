@@ -11,6 +11,9 @@ How to install and setup the physical hardware. This guide requires you to parti
 ## Overview
 This covers the installation of the first batch of physical hardware. If you're looking for info about installing software, check the [README](README.md).
 
+Thank you to Pierre from France for recording an installation video. He says my instructions make this sound more difficult than it is, and he might be right! Until I make updates to the process, here's the whole process in less than 1 minute...  
+https://www.youtube.com/watch?v=pDPKP4a4vfc
+
 ## What's Included
 
 While unboxing take care because **the small, doughnut shaped Eye Inserts are loosely stored inside the Eye Towers.** They can be easily removed by turning them upside down and gently tapping on the table.  
@@ -35,6 +38,9 @@ You will also find a red shipping support. This is not part of the kit and is on
  - A small Phillips screwdriver, like the one that came with your Reachy Mini 
  - A small bag for storage of extra parts related to the eye lens
  - Lens cleaner and a lens cleaning cloth is also recommended
+ 
+## Update the Firmware 
+To ensure that you have the latest for all features it is recommended that you [upgrade the firmware](README.md#updating-firmware) before you install the eyes.
 
 ## Pre-Installation Testing Recommendation
 Testing the eyes is very fast and extremely easy, and for that reason it is **HIGHLY RECOMMENDED** that you bench test the eyes before you perform the installation. Although I'm less concerned about DOA because I personally tested every unit and USB cable before shipping, I did find one robot where the USB port was difficult to plug into fully... this required disassembly of the robot to plug it in firmly.  
