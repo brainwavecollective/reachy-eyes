@@ -88,7 +88,7 @@ Updating firmware is fast and easy. You'll need to do this with the eyes out of 
 #### Detailed version:
 This will not work if the eyes are plugged in. **With the eyes unplugged**, you'll press on the back of the case and **then plug in the eyes** to put the device into firmware mode. As soon as the eyes are plugged in you won't have to keep pressing. 
 
-Your goal is to depress a small, silent, hidden button. The amount of force that you use is somewhere between "light" and "firm" - think, hard enough to deform the shape of the case, but not so hard that you crush the module. If you are unsure, start light, and repeat with increasing firmness. I hold the device in one hand, and plug in the USB with the other. You will need to press firmly and you do not need a lot of force, but **you will not feel a click or anything to tell you whether or not you have pressed hard enough.** My recommendation: start lighter, and repeat with a heavier press if you need to. You're just plugging-in / unplugging so if you need to try a few times it will go fast. 
+Your goal is to depress a small, silent, hidden button. The amount of force that you use is somewhere between "light" and "firm" - think, hard enough to deform the shape of the case, but not so hard that you crush the module. If you are unsure, start light, and repeat with increasing firmness. I hold the device in one hand, and plug in the USB with the other. You will need to press firmly and you do not need a lot of force, but the button is very subtle and **you will may feel a click or anything to tell you whether or not you have pressed hard enough.** My recommendation: start lighter, and repeat with a heavier press if you need to. You're just plugging-in / unplugging so if you need to try a few times it will go fast. 
 
 You will know when the device is in firmware mode because a new USB drive will show up on your computer with the label "RP2350."  Once the drive shows up, simply copy the `eyes.uf2` file into the drive. The drive will automatically disconnect and dissappear. **This is normal** and when this happens the update is complete. It happens fast and the device will automatically reconnect. You can confirm everything works by running a demo. 
 
@@ -101,7 +101,7 @@ The place you are pressing is in the middle, about 1-2cm from the usb port, but 
 
 ## Programmatic Access 
 
-Use the API for app integration 
+Use the API for app integration. pip install coming soon (For now it is recommended to use the git dependency format)
 
 ```python
 import reachy_eyes
@@ -118,8 +118,6 @@ eyes.off()
 ```
 
 Available: `WHITE`, `RED`, `GREEN`, `BLUE`, `AMBER`, `CYAN`, `MAGENTA`  
-
-COMING SOON: Full indexed RGB will be published in the next firmware update (Contact me if you want this upgrade before you install the eyes... the eyes need to be removed from the robot for firmware updates).
 
 ### Built-In Effects
 ```python
