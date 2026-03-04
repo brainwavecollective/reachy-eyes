@@ -25,3 +25,8 @@ Repository = "https://github.com/brainwavecollective/reachy-eyes"
 where = ["."]
 include = ["reachy_eyes*"]
 exclude = ["demos*"]
+
+[dependency-groups]
+dev = [
+    "build>=1.4.0",
+]
