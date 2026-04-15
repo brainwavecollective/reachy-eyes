@@ -26,7 +26,7 @@ def demo(eyes, duration=None):
     
     while end is None or time.time() < end:
         for name, val, aro, dom, cplx, coh, emoji, desc in vibes:
-            eyes._device.send_command(f"VIBE {val} {aro} {dom} {cplx} {coh}")
+            eyes._device.send_command(f"ANIMA {val} {aro} {dom} {cplx} {coh}")
             print(f"{emoji} {name:14} | V:{val:.2f} A:{aro:.2f} D:{dom:.2f} Cx:{cplx:.2f} Ch:{coh:.2f} | {desc}")
             time.sleep(1.5)
 
