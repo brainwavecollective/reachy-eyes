@@ -33,17 +33,17 @@ You can also mix and match styles for the eyes, and explore using different diff
 
 ### Option B Overview: Pinpoint Eyes (Destructive, Advanced, Discouraged)
 
-This is a one directional modification. This option also prevents you from returning your robot to factory eye condition.
+If you go with this option and later want to return your robot to factory eye condition, you have the option to [purchase replacement lenses](https://www.seeedstudio.com/Camera-Lens-186-1-8-53-p-6797.html).
 
-**REASONS WHY NOT TO CONSIDER THIS:** There are potential risks to this approach. Pollen or someone in the community may come up with a use for the provided lenses. I've also found that lenses differ between robots. All of my lenses worked, but I'm not sure that they will, so you may go through all of this trouble and this modification does not even work for you. If you are very careful it may be possible to re-use the lenses. If you aren't careful, these seem relatively common so it may also be possible to replace the lenses... but always a lot easier to avoid any potential problems and just go with Option A instead. I will also be releasing a future update that allows you to re-use your existing lenses without any modification. It's not exactly the pinpoint eyes, but may be a good middle ground if you prefer the original look.
+**REASONS WHY NOT TO CONSIDER THIS:** There are potential risks to this approach. Pollen or someone in the community may come up with a use for the provided lenses. I've also found that lenses differ between robots. All of my lenses worked, but I'm not sure that they will, so you may go through all of this trouble and this modification does not work for you. If you are very careful it may be possible to re-use the lenses. If you aren't careful, you can [replace the lenses](https://www.seeedstudio.com/Camera-Lens-186-1-8-53-p-6797.html).... but always a lot easier to avoid any potential problems and just go with Option A instead. It may be possible to re-use your existing lenses without any modification. It won't exactly be the pinpoint eyes, but may be a good middle ground if you prefer the original look.
 
-Everything said, I would not describe this process as terribly difficult if you want to give it a try. This option is primarily offered to preserve the exact look of the factory robot, or in cases where you specifically want the look of the pinpoint eye. I would not necessarily consider this to be an upgrade, but an alternative. Whether or not it is worth the effort is up to you to decide.  It is also possible to change your mind later.  
+Everything said, I would not describe this process as terribly difficult if you want to give it a try. This option is primarily offered to preserve the exact look of the factory robot, or in cases where you specifically want the look of the pinpoint eye. I would not necessarily consider this to be an upgrade, but an alternative. Whether or not it is worth the effort is up to you to decide.  Think of your robot as a platform that you can explore; none of these modifications are final.
  
 ### Alternative STEP 3 for Pinpoint Eyes 
 **Step 3a: Irreversibly Modify Old Lenses**
-This step permanently modifies your original lenses. There is no reliable way to restore them afterward. Do not proceed unless you are confident in all of these steps and comfortable with the outcome of everything described here.
+This step permanently modifies your original lenses. There is no reliable way to restore them afterward and you will need to [purchase replacement lenses](https://www.seeedstudio.com/Camera-Lens-186-1-8-53-p-6797.html) if you ever want to revert. Do not proceed unless you are confident in all of these steps and comfortable with the outcome of everything described here.
 
-WEAR EYE PROTECTION. You are likely to damage your old lenses in this process, and these lenses were never intended for disassembly. I think it is plausible (although unlikely) that you could break glass if not careful. I'm told you can get your human eyes replaced if you really needed to, but I'm sure it's expensive and very annoying. 
+WEAR EYE PROTECTION. You are likely to damage your old lenses in this process, and these lenses were never intended for disassembly. I think it is plausible that you could break glass if not careful. Replacing human eyes is expensive and very annoying. Wear eye protection.
 
 The purpose of this step is to use your pliers to break the glue seal between the lens and the housing. Grip the lens threads with one tool, and the retaining ring with another. Apply steady rotational force in the counterclockwise direction until the seal breaks. You'll see the glue separate at the seal and the parts will turn apart. You will need to grasp only tightly enough to keep the housing from spinning but not so tight that you mangle the housing. Your pliers will leave imprints on the retaining ring and threads.
 
@@ -74,5 +74,5 @@ Once the seal is broken, the parts can be unscrewed by hand. Some of my lenses h
  - **Gloves method:** Handle with clean latex gloves to hold the parts together and flip into place without fingerprints  
  - **Lens cloth method:** Place cloth over lens, flip tower, gently slide cloth out (added bonus of an extra cleaning swipe when it matters most)  
  
-These are the only unique changes between the two optoins. Go back to [Step 4 of the standard installation](INSTALLATION.md#step-4-install-eye-towers) to finish installing your eyes.
+These are the only unique changes between the two installation options. Go back to [Step 4 of the standard installation](INSTALLATION.md#step-4-install-eye-towers) to finish installing your eyes.
 
