@@ -1,8 +1,6 @@
 # Reachy Mini Eyes - LITE Hardware Installation Guide
 
-How to install and setup the physical hardware. This guide requires you to partially disassemble your Reachy Mini head. Read this entire guide once before starting.  The entire installation process is expected to take approximately 10-30 minutes.  
-
-**These instructions are specifically for the LITE version and will not work for WIRELESS or BETA versions!**  
+How to install and setup the physical hardware. This guide requires you to partially disassemble your Reachy Mini head. Read this entire guide once before starting.  The entire installation process is expected to take approximately 10-20 minutes.  
 
 > [!WARNING]
 > This is an experimental hardware modification. While tested on multiple robots and believed to be a wise upgrade, this is an unofficial modification to your Reachy Mini that is unsupported and has not been approved or endorsed by Pollen. Proceed at your own risk!
@@ -114,7 +112,7 @@ After all 3 tabs click and are secured for both eyes you are ready to move on. T
   </a>
 </div>  
   
-**IMPORTANT! 🚨 CRITICAL ALIGNMENT STEP — DO NOT SKIP 🚨**
+**IMPORTANT! 🚨 ALIGNMENT STEP — DO NOT SKIP 🚨**
   
 <div style="text-align: center;">
   <a href="media/Assemble_AlignEyeTowersCloseUp.JPG" target="_blank">
@@ -155,7 +153,10 @@ The module will easily snap into place. Again, I recommend having your fingers u
 
 **Plug in the Eyes module side first.** I find that it's easiest to pre-bend the USB cable to make sure that it clears the housing. You don't want to force the USB into place, and you don't want any pressure on it when plugged in. It will slide in to the Eyes Module easily.
 
-For the robot side, hold the microphone array in place with your thumb, and lift the head just enough to get access to the sole available USB port. Once it's plugged in you can set it back down.
+For the robot side, hold the microphone array in place with your thumb, and lift the head just enough to get access.
+
+**Insturction for LITE:** Plug the eyes into the available USB port.  
+**Instruction for WIRELESS:** Unplug the existing USB cable, and re-use the USB port. Note that this disables the external USB port on your device. It is rare to need access to the USB port on the Wireless, but you can always open the head back up later if access is necessary.  
 
 <div style="text-align: center;">
   <a href="media/Assemble_ReInstallFace-3.JPG" target="_blank">

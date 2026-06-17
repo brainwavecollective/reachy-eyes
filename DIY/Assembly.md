@@ -1,7 +1,9 @@
 # Reachy Eyes — Assembly
 
+> **Scope:** This page covers assembly only. 3D printing, electronics, and firmware are covered in the separate companion guides.
+
 > [!NOTE]
-> This assembly guide is incomplete. 
+> FYI This assembly guide is incomplete.
 
 This is a WIP which will be built out as a detailed guide, but I am still uploading pics/etc. and waiting to put on the polish until a few people can confirm parts availability and general workflow. I need collaborators for this to work for everyone! Feel free to [open a GitHub issue](https://github.com/brainwavecollective/reachy-eyes/issues) to get in touch with any questions or support along the way.
 
@@ -52,28 +54,28 @@ If you have a hotplate or reflow setup, the process is faster and more reliable,
 
 This project requires specific wires as follows. Lenghts don't have to be precise but are meant as a reference to help you get started easily. I recommend pre-cutting all of these first as they're much easier to have on hand/re-cut on the fly as needed. 
 
-| Wire | Cut Length (mm) | End 1 Strip | End 2 Strip |
+| Wire | Cut Length | End 1 Strip | End 2 Strip |
 |------|----------------|-------------|-------------|
-| A | 34 | 8mm (L) | 12mm (XL) |
-| B | 50 | 8mm (L) | 8mm (L) |
-| C | 38 | 5mm (M) | 8mm (L) |
-| D | 46 | 5mm (M) | 8mm (L) |
-| E | 47 | 3mm (S) | 8mm (L) |
-| F | 46 | 3mm (S) | 12mm (XL) |
-| G | 49 | 3mm (S) | 5mm (M) |
-| H | 47 | 3mm (S) | 5mm (M) |
-| I | 47 | 3mm (S) | 12mm (XL) |
-| J | 38 | 3mm (S) | 8mm (L) |
+| A | 34mm | 8mm (L) | 12mm (XL) |
+| B | 50mm | 8mm (L) | 8mm (L) |
+| C | 38mm | 5mm (M) | 8mm (L) |
+| D | 46mm | 5mm (M) | 8mm (L) |
+| E | 47mm | 3mm (S) | 8mm (L) |
+| F | 46mm | 3mm (S) | 12mm (XL) |
+| G | 49mm | 3mm (S) | 5mm (M) |
+| H | 47mm | 3mm (S) | 5mm (M) |
+| I | 47mm | 3mm (S) | 12mm (XL) |
+| J | 38mm | 3mm (S) | 8mm (L) |
 
 ### Bend the LED Leads 
 
-A pair of needle nose pliers are ideal for this (the only time they are necessary).
+A pair of needle nose pliers are ideal for this.
 
 ## Build the daughter board 
 
 You'll need to cut your PCB which is easy using a few different methods. I prefer to score it with a knife and then snap across a hard surface (like a vise). A pair of pliers or two also works, and you can also cut with a hand saw or trim with flush-cut pliers. In short, there are lots of tutorials out there, and it doesn't matter how you get there, but **your goal is a small perf board that is: 22 x 4 holes (assuming standard 2.54mm spacing)**
 
-You will install the LEDs and wires first, and then the resistors/capacitors and logic level shifters.
+You will install the LEDs and wires first, and then the resistors/capacitors and logic level shifters. Note that the LEDs seem backwards but this is expectred. Just be careful to check orientation as you build.
 
 Wires will be bent out of the way so that they are roughly where they will need to be placed.
 

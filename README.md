@@ -1,11 +1,13 @@
-# Reachy Mini Eyes
+# LED Eyes for your Reachy Mini
 
-Control interface for Reachy Mini Eyes. Automatically discovered hardware that gives your Reachy Mini robot fully controllable LED eyes.  
+Control interface and instructions for Reachy Mini's Eyes. Automatically discovered hardware that gives your Reachy Mini robot fully controllable light-up LED eyes.  
 
 <img src="media/ReachyMiniEyes.png" style="max-width:50%; height:auto;" alt="A cute robot named Reachy Mini with colorful glowing eyes">
 
 > [!NOTE]
 > This is an experimental community project that is not affiliated with or endorsed by Pollen Robotics.
+
+The eyes are [available for purchase](https://reachyeyes.brainwavecollective.ai/#buy) for both the LITE and WIRELESS robots. There is also a [DIY](https://github.com/brainwavecollective/reachy-eyes/blob/main/DIY/README.md) option.
 
 ## Quick Demo - START HERE
 

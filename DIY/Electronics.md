@@ -1,6 +1,6 @@
 # Reachy Eyes — Electronics Sourcing Guide
 
-> **Scope:** This guide covers electronic components only. 3D printing, assembly, and firmware are covered in separate companion guides.
+> **Scope:** This page covers electronic and related components only. 3D printing, assembly, and firmware are covered in the separate companion guides.
 
 ---
 
@@ -63,7 +63,7 @@ Provides a physical base for assembling the circuit. The board can be cut down t
 <details>
 <summary>Alternatives & notes</summary>
 
-Any general-purpose PTH (plated through-hole) perfboard with 0.1" pitch will work. Cut to fit.
+Any general-purpose PTH (plated through-hole) perfboard with 0.1" pitch will work. Cut to fit (22 x 4 holes).
 
 </details>
 
@@ -158,7 +158,7 @@ The microcontroller at the heart of the build. Runs the firmware that controls L
 <details>
 <summary>Alternatives & notes</summary>
 
-The original Pico (RP2040) will also work. Other microcontrollers are possible but you're on your own for firmware compatibility. The Pico 2 is inexpensive, well-supported, easy to find, and hard to beat at this price. You can also use it for other projects. For the Reachy Mini LITE (USB wired version) you do not need the Wireless Pico (Wireless Reachy Mini configuration is TBD).
+Other microcontrollers are certainly usable here but you're on your own for firmware compatibility. The Pico 2 is inexpensive, well-supported, easy to find, ideal for this project, and hard to beat at this price. You can also use it for other projects. For the Reachy Mini (LITE and WIRELESS versions) you do not need the Wireless Pico 2, the standard non-wireless Pico 2 is what you will use.
 
 </details>
 
@@ -196,7 +196,7 @@ Connects the Raspberry Pi Pico 2 (Micro-B port) to the USB-C port in the head of
 <details>
 <summary>Alternatives & notes</summary>
 
-This is a difficult item to find at DigiKey, so you may want to source elswhere. Any 6" 5 pin Micro-B to USB-C cable will probably work BUT this was designed for relatively low clearance plugs so you'll want to look for minimal material around the port of the plug. E.g., avoid a big bulky section where you grip the plug. 6 inches is ideal but up to 1 foot or so will work.
+This can be a difficult item to find at DigiKey, so you may want to source elswhere. Any 6" 5 pin Micro-B to USB-C cable will probably work BUT this was designed for relatively low clearance plugs so you'll want to look for minimal material around the port of the plug. E.g., avoid a big bulky section where you grip the plug. 6 inches is ideal but up to 1 foot or so will work. Your cable must support data (charge only won't work). Note that the difference between a data-only and charge cable is often a resistor... I won't those details or process here but just be aware it may be possible to modify a data only cable.
 
 </details>
 
@@ -204,17 +204,19 @@ This is a difficult item to find at DigiKey, so you may want to source elswhere.
 
 ## Logic Level Shifting
 
-The Pico 2 outputs 3.3V logic. WS2812 LEDs expect ~5V logic on the data line. In practice, **3.3V often works, but not always.** Some builds run perfectly without a level shifter. Others may exhibit flickering, wrong colors, or dropped updates. Whether your build works without one depends on your specific components, wire length, and build quality. This project probably doesn't need a level shifter, but you won't know until you try.
+The Pico 2 outputs 3.3V logic. WS2812 LEDs expect ~5V logic on the data line. In practice, **3.3V often works, but not always.** Some builds run perfectly without a level shifter. Others may exhibit flickering, wrong colors, or dropped updates. Whether your build works without one depends on your specific components, wire length, and build quality. This project probably doesn't need a level shifter, but you won't know for sure until your unit is assembled.
 
 Here's how to think about your options:
 
----
+### Want to simplify your build?
+
+Some builds work fine without it so skipping the level shifter is a completely valid call. If you see flickering, unexpected colors, or LEDs that stop responding, the level shifter is the first thing to add. You can always retrofit it later but it's easiest to just include it from the start. That said, it's a toss up as to whether or not you need it so is only really necessary if you are having issues.
 
 ### Do you want to learn SMD soldering?
 
-This is the recommended path, and at the moment is what is documented in this guide.
+Since this is a learning project this is the recommended path.
 
-The level shifter used here is a **SN74AHCT1G125** in a SOT-23-5 package, mounted on a breakout adapter for use on perfboard. It's a small component that requires fine soldering, but it's also a single IC with five pins. For someone wanting to get into SMD work, this is a reasonable first attempt: low pin count, forgiving layout, and low stakes if you need to retry. Consider buying one or two extra if you're brand new to this. An extremely fine tipped soldering iron is a practical requirement, and reflow setup or hotplate will help (but these are beyond most hobbyist setups).
+The level shifter used here is a **SN74AHCT1G125** in a SOT-23-5 package, mounted on a breakout adapter for use on perfboard. It is a very small component that requires fine soldering, but it's also a single IC with five pins. For someone wanting to get into SMD work, this is a reasonable first attempt: low pin count, forgiving layout, and low stakes if you need to retry. Consider buying one or two extra if you're brand new to this. An extremely fine tipped soldering iron is a practical requirement, and reflow setup or hotplate will help (but these are beyond most hobbyist setups).
 
 These parts are included in the recommended shopping cart, repeated here for ease of reference:
 - [SOT-23-5 Adapter – SchmalzTech ST-SOT23-5](https://www.digikey.com/en/products/detail/schmalztech-llc/ST-SOT23-5/15283225)
@@ -236,14 +238,8 @@ Use 1–2 adapters and ICs depending on your wiring approach (one per LED if dri
 
 </details>
 
----
-
 ### Not ready for SMD?
 
-A through-hole version of this circuit using the **SN74AHCT125 (DIP package)** is in progress. If you'd prefer that path, [open a GitHub issue](https://github.com/brainwavecollective/reachy-eyes/issues) to let me know so I can prioritize getting that documented. It's probably a better way to go overall for this project, but I need to confirming layout & wire routing, and assembly instructions. If you are ambitious and figured this out on your own please feel free to share details. 
+A through-hole version of this circuit using the **SN74AHCT125 (DIP package)** is possible. If you'd prefer that path, [open a GitHub issue](https://github.com/brainwavecollective/reachy-eyes/issues) to let me know so I can prioritize getting that documented. It's probably a better way to go overall for this project, but I need to confirming layout & wire routing, and assembly instructions. If you are ambitious and figured this out on your own please do so and share details. 
 
----
 
-### Prefer to skip the level shifter entirely?
-
-Some builds work fine without it so skipping the level shifter is a valid call. If you see flickering, unexpected colors, or LEDs that stop responding, the level shifter is the first thing to add. You can always retrofit it later but it's easiest to just include it from the start. That said, it's a toss up as to whether or not you need it so is only really necessary if you are having issues.
