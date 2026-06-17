@@ -76,8 +76,10 @@ uv run pip install git+https://github.com/brainwavecollective/reachy-eyes.git
 uv run pip install git+git@github.com:brainwavecollective/reachy-eyes.git
 ```
 
-## Updating Firmware 
+## Updating Firmware (v1 prior to March 2026)
 Updating firmware is fast and easy. You'll need to do this with the eyes out of the robot.
+
+Eyes shipped after March 2026 do not need to update firmware. If that changes this guide will be updated. 
 
 #### Short version:
 1) Download the latest [eyes.uf2 firmware](https://raw.githubusercontent.com/brainwavecollective/reachy-eyes/main/firmware/eyes.uf2)
