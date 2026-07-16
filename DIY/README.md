@@ -2,9 +2,6 @@
 
 This is the Do It Yourselve gudie for everything you need to build your own Reachy Eyes accessory. 
 
-> [!WARNING]
-> This guide covers the **LITE version only**. A version for Wireless and possibly BETA is being explored and will be documented once available.
-
 This covers the [electronics](./Electronics.md), [3D printed parts](./3D.md), and [assembly](./Assembly.md). If you'd rather skip the DIY and get straight to it, [the fully built kit is available here](https://reachyeyes.brainwavecollective.ai/#buy).
 
 ---
