@@ -1,6 +1,6 @@
 # Reachy Eyes — DIY Build Guide
 
-This is the Do It Yourselve gudie for everything you need to build your own Reachy Eyes accessory. 
+This is *the Do It Yourself guide* for everything you need to build your own Reachy Eyes accessory. 
 
 > [!WARNING]
 > This guide covers the **LITE version only**. A version for Wireless and possibly BETA is being explored and will be documented once available.
@@ -11,7 +11,7 @@ This covers the [electronics](./Electronics.md), [3D printed parts](./3D.md), an
 
 ## Is This For You?
 
-This is not exactly a beginner project, but is specifically designed to be well within reach of the average hobbyist who is willing to push through. You should be familiar with and comfortable using a soldering iron. There is one meaningful complexity gate: the level shifter uses a surface mount component, which requires fine soldering. It's possibly skippable (details in the [electronics guide](./Electronics.md)), but if you'd like to learn then attempting it is worth it since this is a low-stakes intro to SMD work.
+This is not exactly a beginner project, but is specifically designed to be within reach of the average hobbyist who is willing to push through. You should be familiar with and comfortable using a soldering iron. There is one meaningful complexity gate: the level shifter uses a surface mount component, which at present requires very fine soldering. It's possibly skippable (details in the [electronics guide](./Electronics.md)), but if you'd like to learn then attempting it is worth it since this is a low-stakes intro to SMD work.
 
 If this is your first time pulling together a complete electronic accessory from parts, that's kind of the point. It's challenging in the right ways, and finishing it is genuinely rewarding.
 
@@ -35,7 +35,7 @@ Start here. Review the BOM, order your parts, and read through the component not
 
 ### 2. 3D Print the Parts → [`3D.md`](./3D.md)
 
-While you're waiting on parts, get your prints running. The STL and print guidance are all here.
+While you're waiting on parts, print your parts. The STL and print guidance are all here.
 
 ### 3. Assemble → [`Assembly.md`](./Assembly.md)
 
@@ -43,12 +43,12 @@ Once you have everything in hand, this guide walks through the physical build an
 
 ### 4. Install & Run → [INSTALLATION.md](../INSTALLATION.md)
 
-Covered in the main project documentation.
+At this poing you'll be ready for the main project documentation.
 
 ---
 
 ## Get Help / Contribute
 
-Something missing? Found a better part source? Want to request a through-hole level shifter option?
+Something missing? Found a better part source? Want to request a through-hole level shifter option? Anything else?
 
 [Open a GitHub issue →](https://github.com/brainwavecollective/reachy-eyes/issues)
