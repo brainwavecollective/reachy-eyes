@@ -60,23 +60,20 @@ reachy-eyes/
 
 This section covers software. The first step is to [Install the Hardware into your Reachy](INSTALLATION.md)
 
-All of the standard approaches will work, you just need to point to this repo (PyPi coming soon!).
+All of the standard approaches will work.
 
 ```bash
-# HTTPS pip
-pip install git+https://github.com/brainwavecollective/reachy-eyes.git
+# pip
+pip install reachy-eyes
 
-# SSH pip
-pip install git+git@github.com:brainwavecollective/reachy-eyes.git
-
-# HTTPS uv
-uv run pip install git+https://github.com/brainwavecollective/reachy-eyes.git
-
-# SSH uv
-uv run pip install git+git@github.com:brainwavecollective/reachy-eyes.git
+# uv
+uv add reachy-eyes
 ```
 
-## Updating Firmware (v1 prior to March 2026)
+<details>
+<summary>Updating Firmware (only for v1 prior to March 2026)</summary>
+
+## Updating Firmware (only for v1 prior to March 2026)
 Updating firmware is fast and easy. You'll need to do this with the eyes out of the robot.
 
 Eyes shipped after March 2026 do not need to update firmware. If that changes this guide will be updated. 
@@ -103,9 +100,11 @@ The place you are pressing is in the middle, about 1-2cm from the usb port, but 
   </a>
 </div>
 
+</details>
+
 ## Programmatic Access 
 
-Use the API for app integration. pip install coming soon (For now it is recommended to use the git dependency format)
+Use the API for app integration.
 
 ```python
 import reachy_eyes
